@@ -1,1 +1,34 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(136, 19, 19);
+    background-color:  rgb(235, 229, 229); */
+  }
   
+  .bg-fondos{
+    background-color: #373A3C;
+  }
+  
+  nav li {
+     display: inline;
+  }
+  
+  .titulo_letra{
+  font-family: "Lobster", sans-serif ;  
+  font-weight: 50;
+  color: white;
+  /* font-style: normal;
+  font-size:large; */
+  }
+
+  
+  .img { width : 50%;}  
+  
+  .bg-fondo_sub{
+    background-color: #DC3545;
+  }
+        
+  .letra{
+    color:white
+  }
