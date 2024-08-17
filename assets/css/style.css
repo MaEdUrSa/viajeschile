@@ -2,10 +2,15 @@
     border: 0;
     padding: 0;
     margin: 0;
+    /* background-color:black; */
     /* background-color: rgb(136, 19, 19);
     background-color:  rgb(235, 229, 229); */
   }
   
+body {
+  background-color:black;
+}
+
   .bg-fondos{
     background-color: #373A3C;
   }
@@ -14,13 +19,6 @@
      display: inline;
   }
   
-  .titulo_letra{
-  font-family: "Lobster", sans-serif ;  
-  font-weight: 50;
-  color: white;
-  /* font-style: normal;
-  font-size:large; */
-  }
 
   #tarjeta { background: black;
     padding: 100px; 
@@ -32,13 +30,8 @@
   /* font-style: normal; */
   /* font-size: small; */
   }
-  .img { width : 50%;}  
-  
-  .bg-fondo_sub{
-    background-color: black;
-  }
-  
+  /* .img { width : 50%;}   */
+
   .letra{
-    color:white
+    font-size:small;
   }
-  
