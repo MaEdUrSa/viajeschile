@@ -1,1 +1,37 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    /* background-color:black; */
+    /* background-color: rgb(136, 19, 19);
+    background-color:  rgb(235, 229, 229); */
+  }
   
+body {
+  background-color:black;
+}
+
+  .bg-fondos{
+    background-color: #373A3C;
+  }
+  
+  nav li {
+     display: inline;
+  }
+  
+
+  #tarjeta { background: black;
+    padding: 100px; 
+    color: white; }
+  
+  .selector_letra{
+  font-family: "Cabin", sans-serif ;  
+  font-weight: 50;
+  /* font-style: normal; */
+  /* font-size: small; */
+  }
+  /* .img { width : 50%;}   */
+
+  .letra{
+    font-size:small;
+  }
