@@ -33,7 +33,7 @@
                         <div class="navbar-nav ms-auto selector_letra justify-content-end">
                             <a class="nav-link active  fw-light " href="#">Inicio</a>
                             <a class="nav-link active  fw-light" href="#quienes_Somos">Quienes somos</a>
-                            <a class="nav-link active  fw-light" href="#tarjeta">Destacado</a>
+                            <a class="nav-link active  fw-light" href="#destacado">Destacado</a>
                             <a class="nav-link active  fw-light" href="#Contacto">Contactos</a>
                         </div>
                         </div>
@@ -64,19 +64,19 @@
         </header>
 
             <section id="quienes_Somos" class="bg-black">
-                <div class="container bg-black mt-5">    
+                <div class="container bg-black mt-5 ">    
                     <div class=" row text-white text-center " >
-                        <p class=" fs-4 fs-2"> ¿QUIENES SOMOS? </p>  
+                        <p class=" fs-4 fs-2 avion"> ¿QUIENES SOMOS? </p>  
                         <p class="px-4"> <HR size="5" width="97%" align="center">  </p> 
                     </div>
                     <div class="row  justify-content-around ">
                         <!-- tarjeta 1  -->
-                        <div class="card bg-black" style="width: 23rem;">
-                            <div class="card-body  bg-black">
+                        <div class="card bg-black " style="width: 23rem;">
+                            <div class="card-body  bg-black ">
                                 <li class="list-group-item bg-info text-center">
                                     <i class="fa-solid fa-plane fa-2x text-white bg-info "></i>  
                                 </li>
-                                <p class="text-left letra text-white ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                <p class="text-left letra text-white  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus Nullan fermentum turpis et dolor euismod consequat sed sed ante. 
                                     Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi loren, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi, interdum et malessuada fames ac ante ipsum primis in faucibus, Mauris ultricies seme eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.
                                 </p>
@@ -111,15 +111,15 @@
                 </div>
             </section>
                 
-            <!-- /* tarjetas */ -->
-            <section id="tarjeta" class="bg-black">
-
-                <div class=" row bg-black text-white  text-center mt-0">
-                    <p class=" fs-4 fs-2"> DESTACADOS </p>  
+            <!-- /* destacado  (Permite ocultar las tarjetas)    */ -->
+            <section id="destacado" >
+            <div id="clickocul"  class="bg-black mt-3"> 
+                <div class=" row bg-black text-white  text-center ">
+                    <p class=" fs-4 fs-2 "> DESTACADOS </p>  
                     <p class="px-4 mb-3"> <HR size="5" width="97%" align="center">  </p> 
                 </div>              
 
-                <div class=" mt-3">   
+                <div id="ocultar" class=" mt-3">   
                     <div class="row gap-1 justify-content-evenly" >
                         <div class="card col-10 col-sm-5 col-md-3 p-0 bg-white text-white " style="width: 15rem;" >
                             <img src="assets/img/card1.jpg" class="card-img-bottom " alt="" >
@@ -159,12 +159,13 @@
 
                     </div>
                 </div>
+            </div>
             </section>
 
-            <section id="Contacto"  class="bg-black">
+            <section id="Contacto"  class="bg-black mt-4">
                 <div class= "container  bg-contacto text-white d-md-block py-2 ">
                     <div class=" row text-white  text-center mt-0">
-                        <p class=" fs-4 fs-2"> CONTACTO </p>  
+                        <p class=" fs-4 fs-2 avion"> CONTACTO </p>  
                         <p class="px-4 mb-3"> <HR size="5" width="97%" align="center">  </p> 
                     </div>   
 
@@ -181,7 +182,7 @@
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
                         </div>
                         <div class="d-flex justify-content-letf  fs-3  mb-3">
-                            <button type="button" class=" btn-success px-4 py-1 text-white letra bg-info fw-medium">Enviar</button>  
+                            <button type="button" id="be1" class="btn-success px-4 py-1 text-white letra bg-info fw-medium">Enviar</button>  
                         </div>    
                 </div>
             </section>
@@ -214,7 +215,7 @@
 <!-- js java -->      
         <script  src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
         crossorigin="anonymous"></script>
-          <!-- enlace al kit de font awesome -->
+
       <!-- enlace al kit de font awesome -->
       <script src="https://kit.fontawesome.com/e8f733cf95.js" crossorigin="anonymous"></script>
              

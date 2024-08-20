@@ -16,3 +16,22 @@ const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstra
 //   myInput.focus()
 // });
 
+$(document).ready(function() {
+    
+    $("#be1").click(function(){
+        alert("El correo fue enviado correctamente ")
+    });
+
+    $( "#clickocul" ).on( "click", function() {
+        $( "#ocultar" ).toggle( "slow", function() {
+        });
+    });
+
+    $('.avion').dblclick(function(){
+        $(this).css({ 
+            "color": "red" 
+            // "font-size": "2em"
+        }) ;
+     } ) ;
+ 
+ } ) ;
