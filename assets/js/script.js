@@ -18,7 +18,7 @@ const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstra
 
 $(document).ready(function() {
     
-    $("#envio").click(function(){
+    $("#envio1").click(function(){
         alert("El correo fue enviado correctamente ")
     });
 
