@@ -27,9 +27,16 @@ $(document).ready(function() {
         });
     });
 
-    $('.avion').dblclick(function(){
+    $('.cambiored').dblclick(function(){
         $(this).css({ 
             "color": "red" 
+            // "font-size": "2em"
+        }) ;
+     } ) ;
+
+     $('.cambioamarillo').click(function(){
+        $(this).css({ 
+            "color": "yellow" 
             // "font-size": "2em"
         }) ;
      } ) ;
